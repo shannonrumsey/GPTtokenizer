@@ -11,13 +11,13 @@ An algorithm that iteratively replaces the most common sequences of consecutive 
 
 Example: 
 
-Step 1: 'zeggghggghc', length = 11, vocab size = 5
+\left\{Step 1: 'zeggghggghc', length = 11, vocab size = 5
 
 Step 2: Replacing gg with A; 'zeAghAghc', length = 9, vocab size = 6
 
 Step 3: Repeat the process by replacing gh with B; 'zeABABc', length = 7, vocab size = 5
 
-Step 4: Repeat by replacing AB with X; 'zeXXc', length = 5, vocab size = 4
+Step 4: Repeat by replacing AB with X; 'zeXXc', length = 5, vocab size = 4 \right\}
 
 # References
 MEGABYTE: Predicting Million-byte Sequences with Multiscale Transformers
